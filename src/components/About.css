@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   padding: 0% 25%;
-  margin: 0%;
+  margin: 0;
   color: white;
   background-attachment: fixed;
   background-size: cover;
@@ -72,7 +72,7 @@
   top: -1rem; /* Position the line above the heading */
   left: 50%; /* Center the line horizontally */
   transform: translateX(-50%); /* Adjust for the line's width */
-  width: 30rem; /* Adjust the width as needed */
+  width: 90%; /* Adjust the width as needed */
   height: 1px;
   background-color: #ddb967;
 }
@@ -132,9 +132,6 @@
 .skills ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /* width: 150%; */
-  /* position: relative;
-    right: 10rem; */
   padding: 0%;
 }
 .skills li {
@@ -151,4 +148,18 @@
   height: 20%;
   border-radius: 10rem;
   margin: 20px 5px;
+}
+@media (max-width: 600px) {
+  .skills ul{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .about-container{
+    padding: 0 15%;
+  }
+  .specials {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1rem;
+  }
 }

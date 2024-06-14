@@ -26,3 +26,11 @@
     align-items: center;
     justify-content: space-between;
 }
+@media (max-width: 600px){
+    .table{
+        flex-direction: column;
+    }
+    .contact-container{
+        height: 100%;
+    }
+}
