@@ -8,6 +8,7 @@
   color: white;
   background-attachment: fixed;
   background-size: cover;
+  z-index: 99999999;
 }
 
 .header {
@@ -97,22 +98,16 @@
   margin: 0%;
   color: #ddb967;
   position: relative;
+  border-left: #ddb967 solid 5px;
+  padding-left: 10px;
 }
 .event p {
   margin: 0%;
   position: relative;
+  border-left: #ddb967 solid 5px;
+  padding-left: 10px;
 }
-.score::before {
-    content: " "; /* Added a single space character */
-    position: absolute;
-    top:-1rem; 
-    left: -1rem; 
-    width: 3px; 
-    height: 2rem; 
-    transform: translateX(-50%);
-    background-color: #ddb967;
-  
-}
+
 .event h3::before {
   background-image: url("./icon1.png"); /* Add this line */
   background-size: cover;
@@ -150,8 +145,9 @@
   margin: 20px 5px;
 }
 @media (max-width: 600px) {
-  .skills ul{
+  .skills ul,.timeline{
     grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
   }
   .about-container{
     padding: 0 15%;
@@ -162,4 +158,5 @@
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 1rem;
   }
+  
 }

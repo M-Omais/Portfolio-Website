@@ -1,10 +1,10 @@
 import * as React from "react";
-import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
 import Contact from "./components/Contact";
 import About from "./components/About";
 import Navbar from "./components/Navbar";
+import "./App.css";
 
 export default function App() {
   return (
