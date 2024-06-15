@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Cryptoportfolio/static/css/main.34a10819.css",
+    "main.js": "/Cryptoportfolio/static/js/main.41da4420.js",
+    "static/js/453.ed3810f9.chunk.js": "/Cryptoportfolio/static/js/453.ed3810f9.chunk.js",
+    "static/media/icon1.png": "/Cryptoportfolio/static/media/icon1.6dabf58c14fbf07a39ff.png",
+    "index.html": "/Cryptoportfolio/index.html",
+    "main.34a10819.css.map": "/Cryptoportfolio/static/css/main.34a10819.css.map",
+    "main.41da4420.js.map": "/Cryptoportfolio/static/js/main.41da4420.js.map",
+    "453.ed3810f9.chunk.js.map": "/Cryptoportfolio/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34a10819.css",
+    "static/js/main.41da4420.js"
+  ]
+}
