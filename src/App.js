@@ -8,7 +8,7 @@ import "./App.css";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Portfolio-Website">
       <Navbar />
       <Routes>
         <Route path="https://m-omais.github.io/Portfolio-Website/" element={<Home />} />
