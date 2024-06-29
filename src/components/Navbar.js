@@ -7,16 +7,16 @@ const Navbar = () => {
     <>
     <nav className="navbar">
       <div className="navbar-container">
-        <Link to="./" className="navbar-logo">
+        <Link to="https://m-omais.github.io/Portfolio-Website/" className="navbar-logo">
           <img className='icon' src='./home.png'/>
         </Link>
-        <Link to="./about" className="navbar-logo">
+        <Link to="https://m-omais.github.io/Portfolio-Website//about" className="navbar-logo">
           <img className='icon' src='./profile.png'/>
         </Link>
-        <Link to="./contact" className="navbar-logo">
+        <Link to="https://m-omais.github.io/Portfolio-Website/contact" className="navbar-logo">
           <img className='icon' src='./phone.png'/>
         </Link>
-        <Link to="./" className="navbar-logo">
+        <Link to="/" className="navbar-logo">
           <img className='icon' src='./website.png'/>
         </Link>
        
