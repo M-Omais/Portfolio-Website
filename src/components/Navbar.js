@@ -8,16 +8,16 @@ const Navbar = () => {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo">
-            <img className="icon" src="home.png" alt="Home" />
+            <img className="icon" src="./home.png" alt="Home" />
           </Link>
           <Link to="/about" className="navbar-logo">
-            <img className="icon" src="profile.png" alt="About" />
+            <img className="icon" src="./profile.png" alt="About" />
           </Link>
           <Link to="/contact" className="navbar-logo">
-            <img className="icon" src="phone.png" alt="Contact" />
+            <img className="icon" src="./phone.png" alt="Contact" />
           </Link>
           <Link to="/" className="navbar-logo">
-            <img className="icon" src="website.png" alt="Website" />
+            <img className="icon" src="./website.png" alt="Website" />
           </Link>
         </div>
       </nav>

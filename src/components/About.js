@@ -89,21 +89,21 @@ const About = () => {
         <ul>
           <li>
             <div className="cert">
-              <img src="deeplearningai.png" alt="profile" />
+              <img src="./deeplearningai.png" alt="profile" />
               <p>AI For Everyone</p>
             </div>
           </li>
 
           <li>
             <div className="cert">
-              <img src="deeplearningai.png" alt="profile" />
+              <img src="./deeplearningai.png" alt="profile" />
               <p>Advance Learning Algorithms</p>
             </div>
           </li>
 
           <li>
             <div className="cert">
-              <img src="deeplearningai.png" alt="profile" />
+              <img src="./deeplearningai.png" alt="profile" />
               <p>Supervised Machine Learning : Regression and Classification</p>
             </div>
           </li>
@@ -112,70 +112,70 @@ const About = () => {
 
           <li>
             <div className="cert">
-              <img src="deeplearningai.png" alt="profile" />
+              <img src="./deeplearningai.png" alt="profile" />
               <p>Unsupervised Learning, Recommenders, Reinforcement Learning</p>
             </div>
           </li>
 
           <li>
             <div className="cert">
-              <img src="deeplearningai.png" alt="profile" />
+              <img src="./deeplearningai.png" alt="profile" />
               <p>Machine Learning Specilization</p>
             </div>
           </li>
 
           <li>
             <div className="cert">
-              <img src="matlab.png" alt="profile" />
+              <img src="./matlab.png" alt="profile" />
               <p>MATLAB Onramp</p>
             </div>
           </li>
 
           <li>
             <div className="cert">
-              <img src="duke.jpeg" alt="profile" />
+              <img src="./duke.jpeg" alt="profile" />
               <p>Rust Fundamentals</p>
             </div>
           </li>
 
           <li>
             <div className="cert">
-              <img src="meta.png" alt="profile" />
+              <img src="./meta.png" alt="profile" />
               <p>Programming with Javascript</p>
             </div>
           </li>
 
           <li>
             <div className="cert">
-              <img src="coursera.jpeg" alt="profile" />
+              <img src="./coursera.jpeg" alt="profile" />
               <p>Command Line Basic in Linux</p>
             </div>
           </li>
 
           <li>
             <div className="cert">
-              <img src="meta.png" alt="profile" />
+              <img src="./meta.png" alt="profile" />
               <p>Introduction to Mobile Development</p>
             </div>
           </li>
 
           <li>
             <div className="cert">
-              <img src="meta.png" alt="profile" />
+              <img src="./meta.png" alt="profile" />
               <p>React Native</p>
             </div>
           </li>
 
           <li>
             <div className="cert">
-              <img src="cisco.jpeg" alt="profile" />
+              <img src="./cisco.jpeg" alt="profile" />
               <p>NDG Linux Essentials English 0223 cga</p>
             </div>
           </li>
 
           <li>
             <div className="cert">
-              <img src="cisco.jpeg" alt="profile" />
+              <img src="./cisco.jpeg" alt="profile" />
               <p>NDG Linux Unhatched English 0123b cga</p>
             </div>
           </li>
