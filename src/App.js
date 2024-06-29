@@ -1,4 +1,4 @@
-import * as React from "react";
+import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
 import Contact from "./components/Contact";
@@ -11,9 +11,9 @@ export default function App() {
     <BrowserRouter basename="/Portfolio-Website">
       <Navbar />
       <Routes>
-        <Route path="https://m-omais.github.io/Portfolio-Website/" element={<Home />} />
-        <Route path="https://m-omais.github.io/Portfolio-Website/about" element={<About />} />
-        <Route path="https://m-omais.github.io/Portfolio-Website/contact" element={<Contact />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
   );
